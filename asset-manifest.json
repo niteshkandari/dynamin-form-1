@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/niteshkandari/dynamin-form-1.git/static/css/main.5facb584.chunk.css",
+    "main.js": "/niteshkandari/dynamin-form-1.git/static/js/main.3f661baa.chunk.js",
+    "main.js.map": "/niteshkandari/dynamin-form-1.git/static/js/main.3f661baa.chunk.js.map",
+    "runtime-main.js": "/niteshkandari/dynamin-form-1.git/static/js/runtime-main.eff7d3ae.js",
+    "runtime-main.js.map": "/niteshkandari/dynamin-form-1.git/static/js/runtime-main.eff7d3ae.js.map",
+    "static/js/2.240bfded.chunk.js": "/niteshkandari/dynamin-form-1.git/static/js/2.240bfded.chunk.js",
+    "static/js/2.240bfded.chunk.js.map": "/niteshkandari/dynamin-form-1.git/static/js/2.240bfded.chunk.js.map",
+    "index.html": "/niteshkandari/dynamin-form-1.git/index.html",
+    "precache-manifest.898a02a0b8c7cffe19e242d1a296a1e0.js": "/niteshkandari/dynamin-form-1.git/precache-manifest.898a02a0b8c7cffe19e242d1a296a1e0.js",
+    "service-worker.js": "/niteshkandari/dynamin-form-1.git/service-worker.js",
+    "static/css/main.5facb584.chunk.css.map": "/niteshkandari/dynamin-form-1.git/static/css/main.5facb584.chunk.css.map",
+    "static/js/2.240bfded.chunk.js.LICENSE.txt": "/niteshkandari/dynamin-form-1.git/static/js/2.240bfded.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eff7d3ae.js",
+    "static/js/2.240bfded.chunk.js",
+    "static/css/main.5facb584.chunk.css",
+    "static/js/main.3f661baa.chunk.js"
+  ]
+}
