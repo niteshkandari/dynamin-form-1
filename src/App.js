@@ -19,9 +19,10 @@ const useStyles = makeStyles((theme) => ({
 function App() {
   const classes = useStyles();
   const userTemplate = { name:"", email:"", phone:"", address:""};
-  const [users , setUsers] = useState([userTemplate]);
-
+  const [users , setUsers] = useState([]);
+  const [show , setShow] = useState(true); 
 const addUserHandler = () => {
+  setShow(false);
   setUsers([...users,userTemplate]);
 }
 const onDeleteHandler = (index) => {
@@ -30,13 +31,14 @@ const onDeleteHandler = (index) => {
 setUsers(newUsers); 
 }
 const onChange = (e , index) => {
-  const updatedUsers = users.map((user,i) => index === i ? Object.assign(user,{[e.target.name]: e.target.value}) : user);
+  const updatedUsers = users.map((user,i) => (index === i ? Object.assign(user,{[e.target.name]: e.target.value}) : user));
   setUsers(updatedUsers);
 }
   return (
     <Container className={classes.root}>
       <Paper component={Box}  p={4} >
-       {users.map((user , index) => (
+      { !show ? <div>
+        {users.map((user , index) => (
         <Grid container spacing={3} key={index} className={classes.inputGroup}>
         <Grid item md={3}>
           <TextField
@@ -88,7 +90,9 @@ const onChange = (e , index) => {
            </IconButton> 
         </Grid>  
       </Grid> 
-       ))}
+       ))} </div>
+
+      : ('')}
       <Button variant="contained" color="primary" onClick={addUserHandler}>Add More</Button> 
 
        </Paper>
